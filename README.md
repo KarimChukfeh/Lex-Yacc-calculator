@@ -15,6 +15,8 @@
 `build/calculator_partial`
 
 ## Step 3
+The calculator is ready to handle your statements
+
 `print 1+2;`
 outputs
 `Calculator output: 3`
