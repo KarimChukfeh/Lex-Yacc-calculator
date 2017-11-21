@@ -7,21 +7,30 @@
 #### Kritika Wadhera
 #### Stephanie Giang
 
+## Tokens
+semicolon `;` at the end of statements
 
-## Step 1
+print `print` to output the result of calculations
+
+------------------------------------------------------
+
+## Compiling and using the calculator
+
+
+### Step 1
 `sh build_partial.sh`
 
-## Step 2
+### Step 2
 `build/calculator_partial`
 
-## Step 3
+### Step 3
 The calculator is ready to handle your statements
 
 `print 1+2;`
 outputs
 `Calculator output: 3`
 
-### Or even
+#### Or even
 `x = 2;`
 
 `y = 3;`
@@ -30,5 +39,5 @@ outputs
 outputs
 `Calculator output: 5`
 
-## Clean up
+### Clean up
 `sh clean_partial.sh`
