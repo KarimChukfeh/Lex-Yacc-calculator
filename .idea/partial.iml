@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Debug/lex.yy.c">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Debug/lex.yy.c" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Debug/y.tab.c">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Debug/y.tab.c" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/MinSizeRel/lex.yy.c">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/MinSizeRel/lex.yy.c" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/MinSizeRel/y.tab.c">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/MinSizeRel/y.tab.c" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/RelWithDebInfo/lex.yy.c">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/RelWithDebInfo/lex.yy.c" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/RelWithDebInfo/y.tab.c">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/RelWithDebInfo/y.tab.c" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Release/lex.yy.c">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Release/lex.yy.c" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Release/y.tab.c">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Release/y.tab.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/calculator_interpreter_partial.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/calculator_interpreter_partial.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Debug" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/RelWithDebInfo" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/MinSizeRel" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Debug" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/RelWithDebInfo" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/MinSizeRel" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Release/y.tab.c" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Release/lex.yy.c" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Debug/y.tab.c" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/Debug/lex.yy.c" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/RelWithDebInfo/y.tab.c" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/RelWithDebInfo/lex.yy.c" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/MinSizeRel/y.tab.c" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/partial-35b1ef8/35b1ef8/MinSizeRel/lex.yy.c" />
+        </excluded>
+      </library>
+    </orderEntry>
+  </component>
+</module>
