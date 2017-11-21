@@ -1,5 +1,5 @@
 # CSI 3130 - Assignment 3
-## Calculator implementation in Lex/Yacc/C which handles variables too.
+## Working calculator grammar which handles multiple variables.
 
 
 #### Judah Olotu
