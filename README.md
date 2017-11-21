@@ -22,9 +22,11 @@ outputs
 ### Or even
 `x = 2;`
 
-
 `y = 3;`
 
 `print x + y;`
 outputs
 `Calculator output: 5`
+
+## Clean up
+`sh clean_partial.sh`
