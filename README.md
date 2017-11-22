@@ -1,12 +1,11 @@
 # CSI 3130 - Assignment 3
-## Question 3:
-## Working calculator which handles multiple variables.
-
-
 #### Judah Olotu
 #### Karim Chukfeh 6694525
 #### Kritika Wadhera
 #### Stephanie Giang
+
+## Question 3: A working calculator which handles multiple variables.
+
 
 ## BNF
 See assignment report
