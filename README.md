@@ -67,23 +67,23 @@ print x + y;`
 outputs
 `Calculator output: 5`
 
-Compiling and using the calculator
-Step 1
+## Compiling and using the calculator
+### Step 1
 In bash run the build_partial script by running inside the project main directory
   sh build_partial.sh
 
-Step 2
+### Step 2
 Run the calculator inside the build directory by running
    build/calculator_partial
 
-Step 3
+### Step 3
 Use the calculator as described above. i.e.
      print 1+2;
 
-Step 4
+### Step 4
 Exit the calculator with
      ctrl+c
 
-Step 5
+### Step 5
 Clean up the generated files by running the clean-up script inside the project main directory
      sh clean_partial.sh
