@@ -1,5 +1,5 @@
 # CSI 3130 - Assignment 3
-#### Judah Olotu
+#### Judah Olotu 8448799
 #### Karim Chukfeh 6694525
 #### Kritika Wadhera 8234314
 #### Stephanie Giang 8311427
