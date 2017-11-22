@@ -7,10 +7,10 @@
 ## Question 3: A working calculator which handles multiple variables.
 
 
-## BNF
+## 1) The BNF
 See assignment report
 
-## Tokens
+## 2) The Tokens
 ### Addition operator  +
 Adds the succeeding value to the preceding value, from left to right.
 
@@ -46,7 +46,7 @@ Gives the preceding variable the value of the succeeding integer.
 ### Semicolon ;
 Return the evaluation of the preceding statement according to the BNF grammar.
 
-## Regular Expressions
+## 3) Regular Expressions and examples
 
 ### print
 Outputs the return of the succeeding expression to console
@@ -67,7 +67,7 @@ print x + y;`
 outputs
 `Calculator output: 5`
 
-## Compiling and using the calculator
+## 4) Compiling and using the calculator
 ### Step 1
 In bash run the build_partial script by running inside the project main directory
   sh build_partial.sh
