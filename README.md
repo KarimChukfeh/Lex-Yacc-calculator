@@ -1,5 +1,5 @@
 # CSI 3130 - Assignment 3
-## Working calculator grammar which handles multiple variables.
+## Working calculator which handles multiple variables.
 
 
 #### Judah Olotu
