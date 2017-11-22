@@ -8,7 +8,7 @@
 
 
 ## 1) The BNF
-See assignment report
+See the full assignment report or browse the project files 
 
 ## 2) The Tokens
 ### Addition operator  +
