@@ -39,62 +39,71 @@ expr:
 
 ```
 ## 2) The Tokens
-### Addition operator  +
+
+### [1] Symbol indices
+#### Addition operator  +
 Adds the succeeding value to the preceding value, from left to right.
 
 
-### Subtraction operator  -
+#### Subtraction operator  -
 Subtracts the succeeding value from the preceding value, from left to right.
 
 
-### Modulus operator  %
+#### Modulus operator  %
 Gets the remainder of dividing the succeeding value to the preceding value, from left to right.
 
 
-### Multiplication operator  *
+#### Multiplication operator  *
 Multiplies the succeeding value by the preceding value, from left to right.
 
 
-### Division operator  /
+#### Division operator  /
 Divides the succeeding value by the preceding value, from left to right.
 
 
-### Open parenthesis symbol (
+#### Open parenthesis symbol (
 Evaluates the succeeding expression (until the close parenthesis symbol) first, from left to right.
 
 
-### Close parenthesis symbol )
+#### Close parenthesis symbol )
 Evaluates the preceding expression (until the open parenthesis symbol) first, from left to right.
 
 
-### Equal sign =
+#### Equal sign =
 Expects a preceding variable and a succeeding variable or integer.
 Gives the preceding variable the value of the succeeding variable/integer.
 
 
-### Semicolon ;
-Return the evaluation of the preceding statement according to the BNF grammar.
+#### Semicolon ;
+Return the evaluation of the preceding statement according to the grammar.
 
 
-### Lower case alphabet characters [a-z] as variables
+#### Lower case alphabet characters [a-z] as variables
 Treated as integer variables that have the value of the integer or variable succeeding an equal sign.
 The math tokens above work with these variables as expected of a calculator.
 
+### [2] Input values
+#### Integers
+Consider the implication of having the integer in that particular location of the mathematical expression
+
+### [3] Output values
+#### `PRT`
+Output the result of the following to console.
 
 ## 3) Regular Expressions
 
-### print
+### [1] `print <expr> ;`
 Outputs the return of the rest of the statement to console
 
-
-## 4) Examples
-
-Example 1:
+Example:
 `print 1+2;`
 outputs
 `Calculator output: 3`
 
-Example 2:
+### [2] `<expr> ;`
+Evaluates the mathematical expression
+
+Example:
 `x = 2;`
 `y = 3;`
 `print x + y;`
