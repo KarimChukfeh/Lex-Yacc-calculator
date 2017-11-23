@@ -8,7 +8,7 @@
 
 
 ## 1) The BNF
-See the full assignment report or browse the project files 
+See the full assignment report or browse the project files
 
 ## 2) The Tokens
 ### Addition operator  +
@@ -40,7 +40,8 @@ Evaluates the preceding expression (until the open parenthesis symbol) first, fr
 
 
 ### Equal sign =
-Gives the preceding variable the value of the succeeding integer.
+Expects a preceding variable and a succeeding variable or integer.
+Gives the preceding variable the value of the succeeding variable/integer. 
 
 
 ### Semicolon ;
@@ -56,9 +57,9 @@ Example:
 outputs
 `Calculator output: 3`
 
-
-### Single alphabet characters [a-z, A-Z] as variables
-Treated as variables that store the value succeeding an equal sign
+### Alphabet characters [a-z, A-Z] as variables
+Treated as integer variables that store the value succeeding an equal sign.
+The math tokens above work on these variables.
 
 Example:
 `x = 2;
@@ -66,6 +67,7 @@ y = 3;
 print x + y;`
 outputs
 `Calculator output: 5`
+
 
 ## 4) Compiling and using the calculator
 ### Step 1
