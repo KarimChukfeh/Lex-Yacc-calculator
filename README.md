@@ -41,30 +41,36 @@ Evaluates the preceding expression (until the open parenthesis symbol) first, fr
 
 ### Equal sign =
 Expects a preceding variable and a succeeding variable or integer.
-Gives the preceding variable the value of the succeeding variable/integer. 
+Gives the preceding variable the value of the succeeding variable/integer.
 
 
 ### Semicolon ;
 Return the evaluation of the preceding statement according to the BNF grammar.
+Example 1:
 
-## 3) Regular Expressions and examples
+
+### Lowe case alphabet characters [a-z] as variables
+Treated as integer variables that have the value of the integer or variable succeeding an equal sign.
+The math tokens above work on these variables.
+
+
+## 3) Regular Expressions
 
 ### print
-Outputs the return of the succeeding expression to console
+Outputs the return of the rest of the statement to console
 
-Example:
+
+## 4) Examples
+
+Example 1:
 `print 1+2;`
 outputs
 `Calculator output: 3`
 
-### Alphabet characters [a-z, A-Z] as variables
-Treated as integer variables that store the value succeeding an equal sign.
-The math tokens above work on these variables.
-
-Example:
-`x = 2;
-y = 3;
-print x + y;`
+Example 2:
+`x = 2;`
+`y = 3;`
+`print x + y;`
 outputs
 `Calculator output: 5`
 
