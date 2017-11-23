@@ -8,8 +8,36 @@
 
 
 ## 1) The BNF
-See the full assignment report or browse the project files
+```yacc
+program:
+    function	{ exit(0); }
+    ;
 
+function:
+        function stmt   { interpret($2); freedom($2); }
+        | /* NULL */
+        ;
+
+stmt:
+    ';'				{ $$ = opera(';', 2, NULL, NULL); }
+    | expr ';'			{ $$ = $1; }
+    | PRT expr ';'		{ $$ = opera(PRT, 1, $2); }
+    | VARIABLE '=' expr ';'	{ $$ = opera('=', 2, identifier($1), $3); }
+    ;
+
+expr:
+    INTEGER                 { $$ = constant($1); }
+    | VARIABLE              { $$ = identifier($1); }
+    | expr '+' expr         { $$ = opera('+', 2, $1, $3); }
+    | expr '-' expr         { $$ = opera('-', 2, $1, $3); }
+    | expr '%' expr         { $$ = opera('%', 2, $1, $3); }
+    | expr '*' expr         { $$ = opera('*', 2, $1, $3); }
+    | expr '/' expr         { $$ = opera('/', 2, $1, $3); }
+    | '(' expr ')'          { $$ = $2; }
+    | '-' expr %prec UMINUS { $$ = opera(UMINUS, 1, $2); }
+    ;
+
+```
 ## 2) The Tokens
 ### Addition operator  +
 Adds the succeeding value to the preceding value, from left to right.
@@ -46,12 +74,11 @@ Gives the preceding variable the value of the succeeding variable/integer.
 
 ### Semicolon ;
 Return the evaluation of the preceding statement according to the BNF grammar.
-Example 1:
 
 
-### Lowe case alphabet characters [a-z] as variables
+### Lower case alphabet characters [a-z] as variables
 Treated as integer variables that have the value of the integer or variable succeeding an equal sign.
-The math tokens above work on these variables.
+The math tokens above work with these variables as expected of a calculator.
 
 
 ## 3) Regular Expressions
