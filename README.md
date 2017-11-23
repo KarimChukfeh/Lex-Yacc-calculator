@@ -8,7 +8,7 @@
 
 
 ## 1) The BNF
-```yacc
+```BNF
 program:
     function	{ exit(0); }
     ;
