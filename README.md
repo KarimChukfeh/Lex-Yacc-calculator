@@ -1,8 +1,8 @@
 # CSI 3130 - Assignment 3
-#### Judah Olotu 8448799
-#### Karim Chukfeh 6694525
-#### Kritika Wadhera 8234314
-#### Stephanie Giang 8311427
+#### Judah Olotu 
+#### Karim Chukfeh 
+#### Kritika Wadhera 
+#### Stephanie Giang 
 
 ## Question 3: A working calculator which handles multiple variables.
 
